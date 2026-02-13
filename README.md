@@ -7,13 +7,12 @@ Project Title: Cat vs Dog Segmentation using LandingLens API (Streamlit Applicat
 1. Project Introduction
 This project shows how to use the LandingLens Segmentation model deployment API to create a semantic segmentation application. By creating a pixel-level mask that highlights the object region, the application aims to segment animals (a dog and a cat) in an input image. When a user uploads a JPG or PNG image, the application uses the Python SDK to send the image to the deployed LandingLens endpoint. The result is a segmentation mask overlay that visually displays the detected object area on the original image. The anticipated result is an overlay mask with a clear color that covers the animal's body area in the picture.
 
-2.
-## Sample Input Images
+2.Sample Input Images
 ### Dog Sample
 ![Dog Sample](testing_img/test/5.jpg)
 ![Cat Sample](testing_img/test/cat/8.jpg)
 
-## Output (Segmentation Result)
+ Output (Segmentation Result)
 
 ![Segmentation Output](testing_img/segmentation_overlay%20(1).png)
 ![Segmentation Output](testing_img/segmentation_overlay%20(2).png)
