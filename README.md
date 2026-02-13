@@ -2,6 +2,7 @@
 LandingLens Segmentation Application Report
 
 Name: Pratik Patil
+
 Project Title: Cat vs Dog Segmentation using LandingLens API (Streamlit Application)
 
 1. Project Introduction
